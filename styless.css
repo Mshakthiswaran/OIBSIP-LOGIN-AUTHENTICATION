@@ -1,0 +1,74 @@
+body{
+    font-family:arial,sams-serif;
+    background-image: url(images\ \(1\)\ \(14\).jpeg);
+}
+.outer{
+    width: 450px;
+    margin: 300px;
+    padding:40px;
+    background-color: rgba(204, 221, 141, 0.738);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.16);
+    position: relative;
+    top: -120px;
+    left: 70px;
+}
+h2{
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom:5px
+}
+input[type="text"],
+input[type="password"]{
+    width:100%;
+    padding:10px;
+    font-size:16px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+button{
+    width:100%;
+    padding:10px;
+    font-size:16px;
+    color:#fff;
+    background-color: #007bff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
+#forgot-password{
+    color:#014fa3;
+    text-decoration:none;
+    position: relative;
+    left: 70px;
+}
+#forgot-password:hover{
+    text-decoration:underline;
+}
+.outer:hover{
+    transition: .1s;
+    transform: scale(1.05);
+}
+#username{
+    width: 300px;
+    position: relative;
+    left: 60px;
+}
+#password{
+    width: 300px;
+    position: relative;
+    left: 60px;
+}
+#submit{
+    width: 300px;
+    position: relative;
+    left: 70px;
+}
